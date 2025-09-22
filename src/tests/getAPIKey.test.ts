@@ -88,5 +88,4 @@ describe("getAPIKey", () => {
     const result = getAPIKey(headers);
     expect(result).toBe("1234567890");
   });
-
 });
